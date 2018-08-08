@@ -1,0 +1,85 @@
+/* pages/aboutme/aboutme.wxss */
+/* 主体内容 */
+.container {
+  display: flex;
+  flex-flow:column;
+  background-color: #efe;
+}
+/* 我的头像 */
+.head {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+}
+/* 自我介绍文本 */
+.yourseft {
+  padding-top: 20rpx;
+}
+/* 我的信息主体内容 */
+.myinfo {
+  width: 100vw;
+  padding-top: 0rpx;
+  display: flex;
+  flex-flow:column;
+}
+/* 我的信息主体内容下的view 1px=2rpx*/
+.myinfo view {
+  padding-top: 20rpx;
+  padding-left: 40rpx;
+}
+/* 我的信息主体内容下的label */
+.myinfo label {
+  padding-top: 20rpx;
+  padding-left: 40rpx;
+}
+/* 我的社交账号主体内容 */
+.mysocialaccount {
+  width: 100vw;
+  padding-top: 0rpx;
+  display: flex;
+  flex-flow:column;
+}
+/* 我的社交账号主体内容下的view */
+.mysocialaccount view {
+  padding-top: 20rpx;
+  padding-left: 40rpx;
+}
+/* 我的社交账号主体内容下的label */
+.mysocialaccount label {
+  padding-top: 20rpx;
+  padding-left: 40rpx;
+}
+/* 我的标签主体内容 */
+.mytags {
+  width: 100vw;
+  padding-top: 0rpx;
+  display: flex;
+  flex-flow:column;
+}
+/* 我的标签主体内容下的view */
+.mytags view {
+  padding-top: 20rpx;
+  padding-left: 40rpx;
+}
+/* 我的标签主体内容下的label */
+.mytags label {
+  padding-top: 20rpx;
+  padding-left: 40rpx;
+}
+/* 我的兴趣主体内容 */
+.myhobbys {
+  width: 100vw;
+  padding-top: 0rpx;
+  display: flex;
+  flex-flow:column;
+}
+/* 我的兴趣主体内容下的view */
+.myhobbys view {
+  padding-top: 20rpx;
+  padding-left: 40rpx;
+}
+/* 我的兴趣主体内容下的label */
+.myhobbys label {
+  padding-top: 20rpx;
+  padding-left: 40rpx;
+}

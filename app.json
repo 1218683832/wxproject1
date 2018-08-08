@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/time/time",
+    "pages/aboutme/aboutme"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "NbProject",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/time/time",
+        "text": "时间"
+      },
+      {
+        "pagePath": "pages/aboutme/aboutme",
+        "text": "关于我"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#00e"
+  }
+}
